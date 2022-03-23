@@ -318,7 +318,11 @@ margin-left: -95px;
                  border: 2px solid hsl(0, 0%, 100%);
                 }
 
-  @media(max-width:768px){
+  @media(max-width:768px),
+  (max-width: 665px){
+    .Home{
+        margin: 0 auto;
+    }
     .main .container{
        flex-direction:column;
        padding-top:20px;
@@ -359,11 +363,19 @@ margin-left: -95px;
      margin-left: 190px;
      text-align:center;
  }
+ img.wxw{
+    display:block;
+    padding-top:70px;
+    margin: 0 auto;
+    margin-left: 190px;
+    text-align:center;
+    padding-left: 90px ;
+ }
  img.wxz{
     display:block;
     margin: 0 auto;
-    text-align:center;
-    margin-left: 190px;
+    padding-left: 90px;
+    margin-left: 480px;
   }
   h2.how{
       text-align:center;
@@ -381,7 +393,9 @@ margin-left: -95px;
     }
     .p3{
         text-align:center;
-        font-size:48px;margin-bottom:12px;
+        font-size:48px;
+        margin-left: 200px;
+        margin-bottom:12px;
     }
     .p4{
         font-size: 20px;
@@ -425,4 +439,127 @@ margin-left: -95px;
 .chats{
     margin-left:500px;
 }
+.image .container{
+    margin: 0 auto;
+    width:700px;
+}
+img.wxm{
+    display:block;
+    margin: 0 auto;
+    padding-left: 90px;
+    text-align:center;
+    margin-left: 390px;
+}
+  }
+
+  @media(max-width:480px),
+  (max-width:320px){
+    .nav-bar .container{
+ display:flex;
+ flex: 0 1 0;
+    }
+    .Home{
+        margin: 0 auto;
+    }
+    .header{
+        min-height: 250px;
+        }
+        h3.note{
+            font-size: 34px;
+            line-height: 44px;
+            }
+            p.name{
+                margin-bottom: 20px;
+            }
+          
+    .img1{
+        margin-top: -50px;
+        flex: 0 1 0;
+        width: 700px;
+         }
+        .main .container{
+            display:block;
+          
+        }
+    p.global{
+      margin: 0 auto;
+      padding-left: 80px;
+      font-size: 28px;
+        text-align:center;
+    }
+    .flex1{
+        display: inline-block;
+    }
+ .brand{
+    text-align:  center;
+    font-size:18px;
+    padding: 0 15px;
+    margin-left: 10px;
+  justify-content: center;
+ }
+    p.long,
+    .short,
+    .how,
+    .p4{
+        padding-top: 20px;
+        margin: 0 auto;
+        padding-left: 40px;
+       width:600px;
+      font-size: 23px;
+      }
+      p.text,
+      .p3{
+        margin: 0 auto;
+        width:600px;
+        padding-left: 70px;
+          text-align:center;}
+      p.short,
+      .p2,
+      .p4{
+  font-size: 25px;
+  line-height: 37px;
+      }
+      .p1{
+          padding-left: 120px;
+      }
+      .p4{
+          padding-bottom: 20px;
+      }
+      .text2{
+     width:750px;
+        margin: 0 auto;
+     padding-top: 70px;
+       margin-left: 0px;
+          text-align:center;}
+      
+
+          .footer{
+      width: max-content;
+          background-attachment: fixed;
+          background-size: cover;background-repeat: repeat-x;
+          
+              
+                  }
+ 
+      
+                  /* .idea,
+                  .talk{
+                      color: black;
+                  } */
+    
+     .line2,
+     .line1{
+     width: 500px;
+     position:absolute;
+   }
+ 
+   .media{
+       color: white;
+       padding-left:0px;
+       gap:2px;
+       margin-left:0px;
+   }
+   .chats{
+       margin-left:300px;
+   }
   }
